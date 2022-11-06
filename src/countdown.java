@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class CountDown {
+public class countdown {
 
     public static void main(String[] args) throws InterruptedException {
-	// write your code here
         System.out.println("Welcome to count down!");
         System.out.println("Please choose a number to count down from: ");
         String name = "James";
@@ -17,10 +16,9 @@ public class CountDown {
             if (x % 10 == 0) {
                 System.out.println("Wow, " + x + " is a milestone!");
             }
-                    x = x - 1;
-                    Thread.sleep(200);
+            x = x - 1;
+            Thread.sleep(200);
         }
         System.out.println("Well, that's the end of the list!");
-        }
     }
-
+}
