@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class CountDown {
 
     public static void main(String[] args) throws InterruptedException {
 	// write your code here
