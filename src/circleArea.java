@@ -4,14 +4,14 @@
 
 import java.util.Scanner;
 
-public class circleArea {
+public class circleRadius {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("What is the radius of the circle? ");
-        double radius = Double.valueOf(scanner.nextLine());
+        System.out.print("What is the radius of the circle? ");
+        double radius = scanner.nextDouble();
         
-        System.out.println("The area of the circle is: " + (radius * radius * 3.1415));
+        System.out.println("The area of the circle is: " + radius * radius * 3.14159);
     }
 }
